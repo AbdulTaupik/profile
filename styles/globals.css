@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Milliard-Light";
+    src: url("../src/assets/Fonts/Milliard-Light.otf");
+}
+@font-face {
+    font-family: "Milliard-Bold";
+    src: url("../src/assets/Fonts/Milliard-Bold.otf");
+}
+@font-face {
+    font-family: "Milliard-SemiBold";
+    src: url("../src/assets/Fonts/Milliard-SemiBold.otf");
+}
+@font-face {
+    font-family: "Milliard-Medium";
+    src: url("../src/assets/Fonts/Milliard-Medium.otf");
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Milliard-Light";
+}
+
+.title {
+    font-family: "Milliard-Bold";
+    font-size: 32px;
+}
