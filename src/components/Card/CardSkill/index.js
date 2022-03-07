@@ -8,7 +8,7 @@ function CardFact(props) {
             <div className="text-xs font-semibold mb-2">{data?.name}</div>
             <div>
                 <ProgressBar
-                    completed={60}
+                    completed={data?.range}
                     borderRadius="2px"
                     bgColor="#1f4287"
                     height="12px"

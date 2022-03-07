@@ -12,7 +12,7 @@ function Menu() {
     };
     return (
         <div
-            className="fixed text-red-500  h-full flex items-center left-5"
+            className="hidden md:flex fixed text-red-500  h-full items-center left-5"
             style={{ zIndex: 50 }}
         >
             <div className="flex flex-col ">

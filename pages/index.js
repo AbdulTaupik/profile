@@ -25,8 +25,8 @@ export default function Home() {
             <Skill />
             <Resume />
             <Portopolio />
-            {/* <Services /> */}
-            <Contact />
+            {/* <Services />
+            <Contact /> */}
         </div>
     );
 }

@@ -14,6 +14,8 @@ import {
     FaLinkedin,
 } from "react-icons/fa";
 
+import { mantis } from "./Images";
+
 export const ListMenu = [
     {
         name: "home",
@@ -91,63 +93,78 @@ export const ListSkill = [
     {
         icon: <FaTwitter />,
         name: "HTML",
+        range: 100,
     },
     {
         icon: <FaTwitter />,
         name: "CSS",
+        range: 90,
     },
     {
         icon: <FaTwitter />,
         name: "GIT",
+        range: 80,
     },
     {
         icon: <FaTwitter />,
         name: "Javascript",
+        range: 70,
     },
 
     {
         icon: <FaTwitter />,
         name: "React JS",
+        range: 92,
     },
     {
         icon: <FaTwitter />,
         name: "React Native",
+        range: 80,
     },
     {
         icon: <FaTwitter />,
         name: "Next Js",
+        range: 90,
     },
     {
         icon: <FaTwitter />,
         name: "Tailwind CSS",
+        range: 96,
     },
     {
         icon: <FaTwitter />,
         name: "Bootstrap 4",
+        range: 85,
     },
     {
         icon: <FaTwitter />,
         name: "Material UI",
+        range: 85,
     },
     {
         icon: <FaTwitter />,
         name: "Shopify",
+        range: 70,
     },
     {
         icon: <FaTwitter />,
         name: "MySql",
+        range: 70,
     },
     {
         icon: <FaTwitter />,
         name: "Mongo DB",
+        range: 60,
     },
     {
         icon: <FaTwitter />,
         name: "PHP",
+        range: 50,
     },
     {
         icon: <FaTwitter />,
         name: "Codeigniter",
+        range: 45,
     },
 ];
 
@@ -245,5 +262,35 @@ export const myExperience = [
         date: "2021 (Feb) - 2022 (Present)",
         address: "Bandung, Jawa Barat",
         items: ["Building oslo website)", "Use Shopify"],
+    },
+];
+
+export const headPortopolio = [
+    {
+        title: "Web",
+    },
+    {
+        title: "Apps",
+    },
+    {
+        title: "UI / UX",
+    },
+];
+
+export const myPortopolioWeb = [
+    {
+        title: "Mantis",
+        link: "mantis.co.id",
+        image: mantis,
+    },
+    {
+        title: "Mantis",
+        link: "mantis.co.id",
+        image: mantis,
+    },
+    {
+        title: "Mantis",
+        link: "mantis.co.id",
+        image: mantis,
     },
 ];

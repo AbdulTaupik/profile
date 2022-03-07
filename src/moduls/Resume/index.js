@@ -8,14 +8,14 @@ function Resume() {
 
     return (
         <Section title="Resume" description={renderDescriptoon} id="resume">
-            <div className="w-full flex justify-between flex-wrap">
-                <div className={`mb-5 w-[49%]`}>
+            <div className="w-full flex flex-col md:flex-row justify-between flex-wrap">
+                <div className={`mb-5 w-full w-full md:w-[49%]`}>
                     <CardResume data={mySummary} heading="Summary" />
                     <div className="mt-10" />
                     <CardResume data={myEducation} heading="Education" />
                     <div className="mt-10" />
                 </div>
-                <div className={`mb-5 w-[49%]`}>
+                <div className={`mb-5 w-full md:w-[49%]`}>
                     <CardResume
                         data={myExperience}
                         heading="Professional Experience"

@@ -10,7 +10,7 @@ function Skill() {
         <Section title="SKILL" description={renderDescription} id="skill">
             <div className="w-full flex justify-between flex-wrap">
                 {ListSkill.map((item, i) => (
-                    <div key={i} className={`mb-5 w-[49%]`}>
+                    <div key={i} className={`mb-5 w-full md:w-[49%]`}>
                         <CardSkill data={item} />
                     </div>
                 ))}

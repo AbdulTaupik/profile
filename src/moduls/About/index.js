@@ -13,35 +13,35 @@ function About() {
 
     return (
         <Section title="About" description={renderDescription} id="about">
-            <div className="flex w-full mt-10">
+            <div className="flex w-full mt-10 flex-col items-center  md:flex-row md:items-start">
                 <div className="flex max-w-[340px] max-h-[340px]">
                     <Image src={fotoProfile} alt="hero" />
                 </div>
-                <div className="w-full h-[200px] pl-10">
+                <div className="w-full md:h-[200px] mt-10 md:mt-0 md:pl-10">
                     <div>
                         <ul className="list-disc">
                             <li className="flex">
-                                <p className="w-28 mb-2">Name</p>
+                                <p className="w-16 md:w-28 mb-2">Name</p>
                                 <p>{" :   "}Abdul Taupik Permana</p>
                             </li>
                             <li className="flex">
-                                <p className="w-28 mb-2">City</p>
+                                <p className="w-16 md:w-28 mb-2">City</p>
                                 <p>{" :   "}Sumedang, West Java, Indonesia</p>
                             </li>
                             <li className="flex">
-                                <p className="w-28 mb-2">Email</p>
+                                <p className="w-16 md:w-28 mb-2">Email</p>
                                 <p>{" :   "}abdultaupik002@gmail.com</p>
                             </li>
                             <li className="flex">
-                                <p className="w-28 mb-2">Phone</p>
+                                <p className="w-16 md:w-28 mb-2">Phone</p>
                                 <p>{" :   "}087788535979</p>
                             </li>
                             <li className="flex">
-                                <p className="w-28 mb-2">Age</p>
+                                <p className="w-16 md:w-28 mb-2">Age</p>
                                 <p>{" :   "}25</p>
                             </li>
                             <li className="flex">
-                                <p className="w-28 mb-2">Degree</p>
+                                <p className="w-16 md:w-28 mb-2">Degree</p>
                                 <p>{" :   "}Bachelor</p>
                             </li>
                         </ul>

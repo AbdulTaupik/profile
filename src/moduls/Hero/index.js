@@ -11,10 +11,9 @@ function Hero() {
     return (
         <div id="home" className="h-[700px]">
             <Menu />
-
             <BaseContainer>
                 <div
-                    className="flex flex-col justify-center h-full text-gray-600 absolute "
+                    className="flex flex-col justify-center h-full text-gray-600 absolute  "
                     style={{ zIndex: 8 }}
                 >
                     <div
