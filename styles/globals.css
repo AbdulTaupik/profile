@@ -30,3 +30,38 @@ body {
     font-family: "Milliard-Bold";
     font-size: 32px;
 }
+
+.menu-title{
+    width: 0;
+    margin-left: -20px;
+    z-index: -1;
+    color: transparent;
+}
+.menu-icon:hover ~ .menu-title{
+    display: flex;
+    color: white;
+    height: 48px;
+    border-radius: 25px;
+    margin-left: -40px;
+    align-items: center;
+    width: 150px;
+    padding-left: 40px;
+    z-index: -1;
+    transition: all 0.45s;
+    text-transform: capitalize;
+}
+
+.image-portofolio > span{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 7px;
+    max-height: 196px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .title {
+        font-family: "Milliard-Bold";
+        font-size: 24px;
+    }
+    
+  }

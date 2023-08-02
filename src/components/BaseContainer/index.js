@@ -1,10 +1,12 @@
 import React from "react";
 
 function BaseContainer(props) {
-    const { children } = props;
+    const { children, id } = props;
     return (
-        <div className="w-full flex justify-center">
-            <div className="max-w-[1360px] w-full px-16">{children}</div>
+        <div id={id} className="w-full flex justify-center">
+            <div className="max-w-[1300px] w-full px-8 sm:px-20">
+                {children}
+            </div>
         </div>
     );
 }
